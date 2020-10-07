@@ -14,4 +14,4 @@ LABEL maintainer="scott BROD <scott@thebrod.com>"
 # RUN chown -R jenkins:jenkins /home/jenkins/.m2/ && 
 
 RUN npm config set @brightside:registry https://api.bintray.com/npm/ca/brightside
-RUN npm install -g @brightside/core@next
+RUN npm install -g @brightside/core@latest
